@@ -1,0 +1,71 @@
+- pid: 1
+  name: Processo A
+  state: ready
+  timestamp: 1690111111
+  io_bound: true
+  uid: 1001
+  affinity: [0, 1]
+- pid: 2
+  name: Processo B
+  state: running
+  timestamp: 1690112222
+  io_bound: false
+  uid: 1002
+  affinity: [2]
+- pid: 3
+  name: Processo C
+  state: blocked
+  timestamp: 1690100000
+  io_bound: true
+  uid: 1003
+  affinity: [3, 0]
+- pid: 4
+  name: Processo D
+  state: ready
+  timestamp: 1690113333
+  io_bound: false
+  uid: 1004
+  affinity: [0, 2]
+- pid: 5
+  name: Processo E
+  state: running
+  timestamp: 1690101000
+  io_bound: false
+  uid: 1005
+  affinity: [1, 3]
+- pid: 6
+  name: Processo F
+  state: blocked
+  timestamp: 1690120000
+  io_bound: true
+  uid: 1006
+  affinity: [0, 1, 2]
+- pid: 7
+  name: Processo G
+  state: ready
+  timestamp: 1690121111
+  io_bound: false
+  uid: 1007
+  affinity: [2, 3]
+- pid: 8
+  name: Processo H
+  state: ready
+  timestamp: 1690130000
+  io_bound: true
+  uid: 1008
+  affinity: [1, 2, 3]
+- pid: 9
+  name: Processo I
+  state: running
+  timestamp: 1690119999
+  io_bound: false
+  uid: 1009
+  affinity: [0, 1]
+- pid: 10
+  name: Processo J
+  state: blocked
+  timestamp: 1690101111
+  io_bound: true
+  uid: 1010
+  affinity: [0, 2, 3]
+
